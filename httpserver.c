@@ -21,7 +21,7 @@
 #include <err.h>
 #include <fcntl.h>
 #include <sys/file.h>
-/Users/jaisuraj/CSE_130/jkaleesw/asgn4/httpserver.c
+
 rwlock_t *rws[256];
 pthread_mutex_t lock_table_mutex = PTHREAD_MUTEX_INITIALIZER,
                 audit_log_mutex = PTHREAD_MUTEX_INITIALIZER;
